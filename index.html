@@ -6,18 +6,23 @@
   <style>
     body {
       font-family: 'Sarabun', sans-serif;
-      background-color: #fff8f0;
+      background-color: #fffdf7;
       margin: 0;
       padding: 0;
+      color: #333;
     }
     header {
-      background-color: #d40000;
+      background-color: #b30000;
       color: white;
       padding: 20px;
       text-align: center;
     }
+    header img {
+      width: 100px;
+      border-radius: 50%;
+    }
     nav {
-      background-color: #f8d7da;
+      background-color: #ffe5e0;
       padding: 10px;
       text-align: center;
     }
@@ -29,22 +34,38 @@
     }
     section {
       padding: 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    .promo {
+      background-color: #fff0f0;
+      padding: 15px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      text-align: center;
+      font-size: 1.2em;
+      font-weight: bold;
+      color: #d40000;
+    }
+    .noodle-img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
     footer {
-      background-color: #d40000;
+      background-color: #b30000;
       color: white;
       text-align: center;
       padding: 10px;
-      position: fixed;
-      bottom: 0;
-      width: 100%;
+      margin-top: 30px;
     }
   </style>
 </head>
 <body>
   <header>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Noodle_icon.svg/1024px-Noodle_icon.svg.png" alt="โลโก้ร้านเจ๊แดง">
     <h1>ร้านก๋วยเตี๋ยวเจ๊แดง</h1>
-    <p>อร่อยเด็ด เผ็ดถึงใจ เปิดมานานกว่า 20 ปี!</p>
+    <p>อร่อยจัดจ้าน ราคานักศึกษา เริ่มต้นแค่ 35 บาท!</p>
   </header>
 
   <nav>
@@ -53,8 +74,13 @@
     <a href="#contact">ติดต่อ</a>
   </nav>
 
+  <section>
+    <div class="promo">🔥 โปรเด็ด! ซื้อครบ 100 บาท รับฟรีลูกชิ้นปิ้ง 2 ไม้ 🔥</div>
+    <img class="noodle-img" src="https://www.mississippivegan.com/wp-content/uploads/2021/01/vermicelli-noodle-bowl.jpg" alt="ภาพก๋วยเตี๋ยว">
+  </section>
+
   <section id="menu">
-    <h2>เมนูยอดนิยม 🍲</h2>
+    <h2>เมนูยอดนิยม</h2>
     <ul>
       <li>ก๋วยเตี๋ยวหมูต้มยำ</li>
       <li>ก๋วยเตี๋ยวเนื้อเปื่อย</li>
@@ -65,18 +91,17 @@
 
   <section id="about">
     <h2>เกี่ยวกับร้าน</h2>
-    <p>ร้านเจ๊แดงตั้งอยู่ที่เชียงใหม่ เปิดให้บริการทุกวัน เวลา 8.00 - 16.00 น. ด้วยสูตรลับเฉพาะที่สืบทอดกันมายาวนาน</p>
+    <p>ร้านเจ๊แดงตั้งอยู่ใกล้มหาวิทยาลัยเชียงใหม่ บรรยากาศเป็นกันเอง ราคานักศึกษา เปิดทุกวัน 8.00 - 16.00 น.</p>
   </section>
 
   <section id="contact">
     <h2>ช่องทางการติดต่อ</h2>
     <p>โทร: 081-234-5678</p>
-    <p>ที่อยู่: ถนนสุเทพ อำเภอเมือง จังหวัดเชียงใหม่</p>
     <p>Facebook: <a href="#">facebook.com/jaedaengnoodle</a></p>
   </section>
 
   <footer>
-    &copy; 2025 ร้านก๋วยเตี๋ยวเจ๊แดง
+    &copy; 2025 ร้านก๋วยเตี๋ยวเจ๊แดง - อร่อยถึงใจวัยเรียน
   </footer>
 </body>
 </html>
