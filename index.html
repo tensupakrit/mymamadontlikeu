@@ -2,87 +2,106 @@
 <html lang="th">
 <head>
   <meta charset="UTF-8">
-  <title>ร้านก๋วยเตี๋ยวเจ๊แดง</title>
+  <title>ก๋วยเตี๋ยวเรือ CMU</title>
   <style>
     body {
       font-family: 'Sarabun', sans-serif;
-      background-color: #fffdf7;
+      background-color: #fff8f0;
       margin: 0;
       padding: 0;
-      color: #333;
     }
     header {
-      background-color: #b30000;
+      background-color: #8b0000;
       color: white;
       padding: 20px;
       text-align: center;
     }
     header img {
-      width: 100px;
-      border-radius: 50%;
+      height: 80px;
+      vertical-align: middle;
     }
-    nav {
-      background-color: #ffe5e0;
-      padding: 10px;
-      text-align: center;
-    }
-    nav a {
-      margin: 0 15px;
-      color: #b30000;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    section {
-      padding: 20px;
-      max-width: 900px;
-      margin: auto;
+    h1 {
+      display: inline;
+      margin-left: 15px;
+      font-size: 2em;
     }
     .promo {
-      background-color: #fff0f0;
+      background-color: #ffe4c4;
       padding: 15px;
-      border-radius: 10px;
-      margin-bottom: 20px;
       text-align: center;
       font-size: 1.2em;
       font-weight: bold;
-      color: #d40000;
+      color: #5a2d0c;
     }
-    .menu-gallery {
+    .menu {
       display: flex;
+      justify-content: space-around;
       flex-wrap: wrap;
-      gap: 20px;
-      justify-content: center;
+      padding: 20px;
     }
-    .menu-item {
-      width: 250px;
-      text-align: center;
-    }
-    .menu-item img {
-      width: 100%;
+    .item {
+      background-color: #fff;
+      border: 1px solid #ddd;
       border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      width: 300px;
+      margin: 10px;
+      text-align: center;
+      box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+    }
+    .item img {
+      width: 100%;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+    .item h2 {
+      margin: 10px 0;
+      color: #8b0000;
+    }
+    .item p {
+      margin: 5px 0;
+      font-size: 1em;
     }
     footer {
-      background-color: #b30000;
+      background-color: #8b0000;
       color: white;
       text-align: center;
       padding: 10px;
-      margin-top: 30px;
+      font-size: 0.9em;
     }
   </style>
 </head>
 <body>
-  <header>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Noodle_icon.svg/1024px-Noodle_icon.svg.png" alt="โลโก้ร้านเจ๊แดง">
-    <h1>ร้านก๋วยเตี๋ยวเจ๊แดง</h1>
-    <p>อร่อยจัดจ้าน ราคานักศึกษา เริ่มต้นแค่ 35 บาท!</p>
-  </header>
 
-  <nav>
-    <a href="#menu">เมนู</a>
-    <a href="#about">เกี่ยวกับร้าน</a>
-    <a href="#contact">ติดต่อ</a>
-  </nav>
+<header>
+  <img src="logo.png" alt="โลโก้ร้านก๋วยเตี๋ยวเรือ">
+  <h1>ก๋วยเตี๋ยวเรือ CMU</h1>
+</header>
 
-  <section>
-    <div class="promo">🔥 โปรเด็ด! ซื้อครบ 100 บาท รับฟรีลูกชิ้นปิ
+<div class="promo">
+  อร่อยเข้มข้น ราคานักศึกษา! 🍜 เปิดทุกวันหน้า มช.
+</div>
+
+<div class="menu">
+  <div class="item">
+    <img src="noodle1.jpg" alt="ก๋วยเตี๋ยวเรือหมู">
+    <h2>ก๋วยเตี๋ยวเรือหมู</h2>
+    <p>ราคา: 40 บาท</p>
+  </div>
+  <div class="item">
+    <img src="noodle2.jpg" alt="ก๋วยเตี๋ยวเรือเนื้อ">
+    <h2>ก๋วยเตี๋ยวเรือเนื้อ</h2>
+    <p>ราคา: 45 บาท</p>
+  </div>
+  <div class="item">
+    <img src="noodle3.jpg" alt="ก๋วยเตี๋ยวเรือรวม">
+    <h2>ก๋วยเตี๋ยวเรือรวม</h2>
+    <p>ราคา: 50 บาท</p>
+  </div>
+</div>
+
+<footer>
+  &copy; 2025 ก๋วยเตี๋ยวเรือ CMU | โทร: 098-765-4321
+</footer>
+
+</body>
+</html>
